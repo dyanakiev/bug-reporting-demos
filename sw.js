@@ -38,3 +38,19 @@
         width: '32rem',
         timer: 1000
     });
+
+
+    function test() {
+        Turbo.visit('sw2.html')
+        Swal.fire({
+            position: "top-end",
+            icon:  'success',
+            title: 'Hello world!',
+            showConfirmButton: false,
+            stopKeydownPropagation: false,
+            toast: true,
+            width: '32rem',
+            timer: 1000
+        });
+    
+    }
