@@ -40,7 +40,7 @@
     });
 
 
-    function test() {
+    window.test = function () {
         Turbo.visit('sw2.html')
         Swal.fire({
             position: "top-end",
