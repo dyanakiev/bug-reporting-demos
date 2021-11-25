@@ -53,7 +53,7 @@
         });
 
         setTimeout(function() {
-            Turbo.visit('sw1.html')
+            Turbo.visit('sw.html')
 
         },800);
 
